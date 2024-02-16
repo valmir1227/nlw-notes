@@ -7,7 +7,6 @@ interface NewNoteProps {
   onNoteCreated: (content: string) => void;
 }
 
-//Instlar types Speech
 const SpeechRecognitionAPI =
   window.SpeechRecognition || window.webkitSpeechRecognition;
 
